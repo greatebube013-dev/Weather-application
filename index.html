@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anambra Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-app">
+    <h1>🌤️ Anambra Weather App</h1>
+    <div class="search">
+      <input type="text" id="city-input" placeholder="Enter city name">
+      <button id="search-btn">Search</button>
+    </div>
+    <div class="weather-info" id="weather-info">
+      <h2 id="city-name">Anambra State</h2>
+      <img id="weather-icon" src="" alt="">
+      <h2 id="temp">30°C</h2>
+      <p id="description">Sunny</p>
+      <div class="details">
+        <p>💧 Humidity: <span id="humidity">50</span>%</p>
+        <p>💨 Wind: <span id="wind">5</span> km/h</p>
+      </div>
+    </div>
+    <p id="error" class="error"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
